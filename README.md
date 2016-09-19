@@ -1,5 +1,5 @@
-AWS Elastic BeanStalk Docker Sample!
-=================
+AWS Elastic BeanStalk Docker Sample
+====================================
 
 [![Run Status](https://api.shippable.com/projects/56e93b119d043da07bdda580/badge?branch=master)](https://app.shippable.com/projects/56e93b119d043da07bdda580)
 
