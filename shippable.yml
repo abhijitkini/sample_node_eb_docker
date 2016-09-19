@@ -17,11 +17,8 @@ integrations:
     # AWS Integration to deploy Docker image
     - integrationName: "AWS-Abhijit"
       type: aws
-      target: eb_docker
       application_name: "NodeJSDockerEB-app"
       env_name: "NodeJSDockerEB-app-dev"
-      #Get the bucket name from Amazon AWS S3 console
-      bucket_name: "elasticbeanstalk-us-west-2-382781657035"
       region: "us-west-2"
       image_name: "abhijitkini/sample_node_eb_docker"
       image_tag: "$BRANCH.$BUILD_NUMBER"
