@@ -1,3 +1,7 @@
+# specifying build image
+build_image: drydock/u14nodall:tip
+
+
 # Language setting
 language: node_js
 
